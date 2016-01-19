@@ -55,6 +55,17 @@ describe('utility functions', function(){
           expect(range(4,9)).to.eql([4,5,6,7,8]);
       });
 
+      describe('rangeObj', function(){
+        
+        it('should return an object', function(){
+            var rangeObj = require('./rangeObj.js');
+
+            expect(rangeObj()).to.be.an.object;
+        });
+
+
+      });
+
   });
 
 
